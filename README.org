@@ -1,0 +1,18 @@
+* なんこれ
+  TwitterのAPIのバージョンが1.1に上がり、2013/3/5以降は従来のAPIが使用できなくなります。
+  これに伴って、Twitterが「Developer Display Requirements」を制定しましたが、これに準拠すると著しく使い勝手が悪くなります。しかしこれはTwitter APIを使う以上避けては通れません。
+  このプラグインは、0.2.1で使いづらくなったmikutterを浄化するプラグインです。Display Requirementsに準拠しているmikutter 0.2.1を使用するなら、インストールすべきです。
+
+* インストール方法
+  以下のコマンドを端末上で実行すればインストール完了です。
+
+  : $ mkdir -p ~/.mikutter/plugin; git clone git@github.com:toshia/display_requirements.git ~/.mikutter/plugin/display_requirements
+
+* 動作環境
+  mikutter 0.2.1以降で動作します。以前のバージョンでも動きますが、効果を発揮しません。
+
+* 使いかた
+  インストールするだけで動作します。機能を抑制するだけなので、これ自体が機能を提供することはありません。
+
+* リンク
+  [[https://dev.twitter.com/terms/display-requirements][Developer Display Requirements | Twitter Developers]]
