@@ -6,7 +6,7 @@
 * インストール方法
   以下のコマンドを端末上で実行すればインストール完了です。
 
-  : $ mkdir -p ~/.mikutter/plugin; git clone git@github.com:toshia/display_requirements.git ~/.mikutter/plugin/display_requirements
+  : $ mkdir -p ~/.mikutter/plugin; git clone git://github.com/toshia/display_requirements.git ~/.mikutter/plugin/display_requirements
 
 * 動作環境
   mikutter 0.2.1以降で動作します。以前のバージョンでも動きますが、効果を発揮しません。
